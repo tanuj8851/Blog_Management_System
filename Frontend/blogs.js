@@ -1,4 +1,4 @@
-let api_url="http://localhost:9000/api";
+let api_url="https://blog-management-system.onrender.com/api";
 let token= JSON.parse(localStorage.getItem("token"))
 let blogData=[]
 
@@ -64,7 +64,7 @@ data.forEach((blog)=>{
 const likeBlog=async(id)=>{
 try {
     
-const response= await fetch(`${ap_url}/blogs/${id}/like`,{
+const response= await fetch(`${api_url}/blogs/${id}/like`,{
     post:"GET",
     headers:{
         Authorization:token
@@ -87,7 +87,7 @@ if(response.ok){
 const CommentBlog=async(id)=>{
     try {
         
-    const response= await fetch(`${ap_url}/blogs/${id}/comment`,{
+    const response= await fetch(`${api_url}/blogs/${id}/comment`,{
         post:"GET",
         headers:{
             Authorization:token

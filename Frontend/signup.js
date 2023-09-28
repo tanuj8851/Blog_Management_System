@@ -9,7 +9,7 @@ const email= document.getElementById("email")
 const password= document.getElementById("password");
 const btn= document.getElementById("signup-btn")
 
-const api_url="http://localhost:9000/api";
+const api_url="https://blog-management-system.onrender.com/api";
 
 
 
