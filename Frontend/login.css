@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#sign-up,#login {
+    border: 1px solid;
+    text-align: center;
+}
+
+
+#login {
+    border: 1px solid;
+    height: 450px;
+}
+
+#signUp-form,#login-form {
+    border: 1px solid;
+    height: 100%;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input,
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: blueviolet;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+    border: none;
+
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5ms ease;
+}
